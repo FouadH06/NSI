@@ -1037,6 +1037,8 @@ label {
 
 .input-icon {
     position: relative;
+    width: 100%;
+    display: block;
 }
 
 .input-icon i {
@@ -1058,6 +1060,8 @@ input, textarea {
     transition: all var(--transition-fast);
     min-width: 0;
     max-width: 100%;
+    display: block;
+    box-sizing: border-box;
 }
 
 textarea {
@@ -1340,6 +1344,12 @@ footer {
     input, textarea {
         padding: 12px 10px 12px 35px;
         font-size: 0.85rem;
+    }
+    
+    input[type="datetime-local"] {
+        font-size: 0.75rem;
+        letter-spacing: -0.5px;
+        padding-left: 30px;
     }
 }
 
