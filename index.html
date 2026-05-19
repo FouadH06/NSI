@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luna Bites - Sweetness After Dark. A fictional premium dessert café.">
+    <title>Luna Bites | Premium Dessert Café</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-moon"></i> Luna Bites
+            </a>
+            
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="#contact" class="btn btn-primary nav-btn">Book a Table</a>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <!-- Decorative background elements -->
+            <div class="hero-bg-glow"></div>
+            <div class="hero-shape-1"></div>
+            
+            <div class="container hero-container">
+                <div class="hero-content reveal fade-up">
+                    <div class="badge">
+                        <i class="fa-solid fa-star"></i> Premium Dessert Café
+                    </div>
+                    <h1>Desserts Made for Midnight Cravings.</h1>
+                    <p>Experience an elegant late-night escape with handcrafted cakes, premium drinks, and sweet bites.</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                        <a href="#contact" class="btn btn-secondary">Reserve a Table</a>
+                    </div>
+                    <div class="hero-meta">
+                        <span><i class="fa-regular fa-clock"></i> Open Evenings 4PM - 12AM</span>
+                    </div>
+                </div>
+                
+                <div class="hero-visual reveal fade-left">
+                    <div class="visual-card-wrapper">
+                        <div class="visual-card">
+                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1000&auto=format&fit=crop" alt="Featured premium chocolate cake" class="hero-image">
+                        </div>
+                        <!-- Floating Info Card -->
+                        <div class="floating-card">
+                            <div class="floating-card-icon">
+                                <i class="fa-solid fa-crown"></i>
+                            </div>
+                            <div class="floating-card-text">
+                                <strong>Signature Pick</strong>
+                                <span>Caramel Cheesecake</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience / Why Choose Us Section (NEW) -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="subtitle">The Luna Bites Experience</span>
+                    <h2>Why Choose Us</h2>
+                    <div class="separator"></div>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card reveal fade-up" style="transition-delay: 0.1s;">
+                        <div class="feature-icon"><i class="fa-solid fa-leaf"></i></div>
+                        <h3>Premium Ingredients</h3>
+                        <p>We source only the finest chocolate, fresh fruits, and imported vanilla for our creations.</p>
+                    </div>
+                    <div class="feature-card reveal fade-up" style="transition-delay: 0.2s;">
+                        <div class="feature-icon"><i class="fa-solid fa-wine-glass"></i></div>
+                        <h3>Evening Atmosphere</h3>
+                        <p>A sophisticated, dark, and cozy ambiance designed for late-night relaxation and dates.</p>
+                    </div>
+                    <div class="feature-card reveal fade-up" style="transition-delay: 0.3s;">
+                        <div class="feature-icon"><i class="fa-solid fa-utensils"></i></div>
+                        <h3>Handmade Daily</h3>
+                        <p>Every cake and pastry is baked fresh in our kitchen by passionate pastry chefs.</p>
+                    </div>
+                    <div class="feature-card reveal fade-up" style="transition-delay: 0.4s;">
+                        <div class="feature-icon"><i class="fa-solid fa-camera"></i></div>
+                        <h3>Perfect Moments</h3>
+                        <p>Beautifully plated desserts in an aesthetic space, perfect for unforgettable memories.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container about-container">
+                <div class="about-image-wrapper reveal fade-right">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1000&auto=format&fit=crop" alt="Cafe ambiance" class="about-img">
+                    <div class="about-img-overlay"></div>
+                </div>
+                <div class="about-content reveal fade-left">
+                    <span class="subtitle">Our Story</span>
+                    <h2>A Café Inspired by Moonlight</h2>
+                    <div class="separator-left"></div>
+                    <p class="about-description">
+                        Luna Bites is born from the simple desire for late-night sweetness. When the city sleeps, our doors open to offer a sanctuary of indulgence. We believe that dessert is not just an afterthought, but an experience to be savored in a luxurious, moody setting.
+                    </p>
+                    <a href="#gallery" class="btn btn-secondary mt-20">View Our Space</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="subtitle">Temptations</span>
+                    <h2>Our Menu</h2>
+                    <div class="separator"></div>
+                    <p>Indulge in our carefully curated evening selection.</p>
+                </div>
+                
+                <div class="menu-categories">
+                    <!-- Signature Cakes -->
+                    <div class="menu-category reveal fade-up">
+                        <h3><i class="fa-solid fa-cake-candles"></i> Signature Cakes</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item-card">
+                                <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=200&auto=format&fit=crop" alt="Chocolate Cake" class="menu-item-img">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Moonlight Chocolate Cake <span class="tag tag-gold">Best Seller</span></h4>
+                                        <span class="price">$6.00</span>
+                                    </div>
+                                    <p>Rich dark chocolate layered with velvet ganache.</p>
+                                </div>
+                            </div>
+                            <div class="menu-item-card">
+                                <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=200&auto=format&fit=crop" alt="Strawberry Cake" class="menu-item-img">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Velvet Strawberry Slice</h4>
+                                        <span class="price">$5.00</span>
+                                    </div>
+                                    <p>Soft sponge with fresh cream and seasonal berries.</p>
+                                </div>
+                            </div>
+                            <div class="menu-item-card">
+                                <img src="https://images.unsplash.com/photo-1524351199678-941a58a3df50?q=80&w=200&auto=format&fit=crop" alt="Cheesecake" class="menu-item-img">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Golden Caramel Cheesecake <span class="tag tag-purple">Chef's Pick</span></h4>
+                                        <span class="price">$6.50</span>
+                                    </div>
+                                    <p>Creamy cheese on biscuit base with caramel drizzle.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Drinks -->
+                    <div class="menu-category reveal fade-up">
+                        <h3><i class="fa-solid fa-mug-hot"></i> Cold Drinks</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item-card">
+                                <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=200&auto=format&fit=crop" alt="Latte" class="menu-item-img">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Iced Vanilla Moon Latte</h4>
+                                        <span class="price">$4.00</span>
+                                    </div>
+                                    <p>Smooth espresso over ice with vanilla sweet cream.</p>
+                                </div>
+                            </div>
+                            <div class="menu-item-card">
+                                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=200&auto=format&fit=crop" alt="Frappe" class="menu-item-img">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Dark Cocoa Frappe <span class="tag tag-gold">Popular</span></h4>
+                                        <span class="price">$4.50</span>
+                                    </div>
+                                    <p>Blended dark chocolate topped with whipped cream.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Sweet Bites -->
+                    <div class="menu-category reveal fade-up">
+                        <h3><i class="fa-solid fa-cookie-bite"></i> Sweet Bites</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item-card">
+                                <img src="https://images.unsplash.com/photo-1603569283847-aa295f0d016a?q=80&w=200&auto=format&fit=crop" alt="Brownie" class="menu-item-img">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Mini Brownie Box</h4>
+                                        <span class="price">$7.00</span>
+                                    </div>
+                                    <p>Bite-sized fudgy dark chocolate brownies.</p>
+                                </div>
+                            </div>
+                            <div class="menu-item-card">
+                                <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=200&auto=format&fit=crop" alt="Cookies" class="menu-item-img">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Gold Dust Cookies</h4>
+                                        <span class="price">$4.00</span>
+                                    </div>
+                                    <p>Classic chocolate chip with a touch of edible gold.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Signature Dessert Section -->
+        <section id="featured" class="featured">
+            <div class="container featured-container">
+                <div class="featured-text reveal fade-right">
+                    <span class="badge badge-outline"><i class="fa-solid fa-award"></i> Signature Pick</span>
+                    <h2>Golden Caramel Cheesecake</h2>
+                    <div class="separator-left"></div>
+                    <p>Our undisputed masterpiece. A rich, dense cream cheese filling resting on a buttery, toasted biscuit crust, generously glazed with our house-made dark caramel and finished with a delicate touch of edible gold leaf.</p>
+                    <ul class="featured-list">
+                        <li><i class="fa-solid fa-check"></i> Handmade daily in limited batches</li>
+                        <li><i class="fa-solid fa-check"></i> Premium imported Madagascar vanilla</li>
+                        <li><i class="fa-solid fa-check"></i> 100% vegetarian friendly</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary mt-20">Order for Tonight</a>
+                </div>
+                <div class="featured-image-wrapper reveal fade-left">
+                    <img src="https://images.unsplash.com/photo-1524351199678-941a58a3df50?q=80&w=1000&auto=format&fit=crop" alt="Golden Caramel Cheesecake" class="featured-img">
+                    <div class="featured-glow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="subtitle">Aesthetic Vibes</span>
+                    <h2>The Luna Bites Gallery</h2>
+                    <div class="separator"></div>
+                </div>
+                
+                <div class="gallery-masonry reveal fade-up">
+                    <div class="gallery-item item-large">
+                        <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=600&auto=format&fit=crop" alt="Chocolate cake">
+                        <div class="gallery-overlay">
+                            <span>Chocolate Elegance</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=600&auto=format&fit=crop" alt="Dessert spread">
+                        <div class="gallery-overlay">
+                            <span>Dessert Moments</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item item-tall">
+                        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=600&auto=format&fit=crop" alt="Dark coffee">
+                        <div class="gallery-overlay">
+                            <span>Midnight Latte</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?q=80&w=600&auto=format&fit=crop" alt="Sweets">
+                        <div class="gallery-overlay">
+                            <span>Sweet Bites</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item item-wide">
+                        <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=800&auto=format&fit=crop" alt="Cafe interior">
+                        <div class="gallery-overlay">
+                            <span>Cozy Corners</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section (NEW) -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="subtitle">Sweet Words</span>
+                    <h2>Customer Reviews</h2>
+                    <div class="separator"></div>
+                </div>
+                
+                <div class="testimonial-grid">
+                    <div class="testimonial-card reveal fade-up" style="transition-delay: 0.1s;">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote">"Absolutely stunning cafe. The Golden Caramel Cheesecake is the best I've ever had. Perfect atmosphere for a late-night date."</p>
+                        <div class="customer-info">
+                            <div class="avatar">S</div>
+                            <span>Sarah M.</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card reveal fade-up" style="transition-delay: 0.2s;">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote">"Luna Bites perfectly captures that dark, luxurious mood. Their Moonlight Chocolate Cake paired with the Moon Latte is heaven."</p>
+                        <div class="customer-info">
+                            <div class="avatar">J</div>
+                            <span>James D.</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card reveal fade-up" style="transition-delay: 0.3s;">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p class="quote">"Beautiful presentation, top-tier ingredients, and excellent service. I always bring my friends here when they visit the city."</p>
+                        <div class="customer-info">
+                            <div class="avatar">L</div>
+                            <span>Lina K.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / Reservation Section -->
+        <section id="contact" class="contact">
+            <div class="container contact-split">
+                <div class="contact-info reveal fade-right">
+                    <span class="subtitle">Join Us</span>
+                    <h2>Reserve a Table</h2>
+                    <div class="separator-left"></div>
+                    <p class="contact-intro">Plan your perfect evening. Whether it's an intimate date or a late-night craving, we'll ensure your table is ready.</p>
+                    
+                    <div class="contact-details-cards">
+                        <div class="detail-card">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <span>123 Moonlight Blvd, Beirut, Lebanon</span>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fa-regular fa-clock"></i>
+                            <div>
+                                <strong>Hours</strong>
+                                <span>Mon - Sat: 4:00 PM - 12:00 AM<br>Sun: Closed</span>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <strong>Contact</strong>
+                                <span>+961 1 234 567<br>hello@lunabites.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper reveal fade-left">
+                    <form id="reservation-form" class="reservation-form">
+                        <h3>Book Your Experience</h3>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <div class="input-icon">
+                                <i class="fa-regular fa-user"></i>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <div class="input-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <input type="tel" id="phone" name="phone" required placeholder="Phone number">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Guests</label>
+                                <div class="input-icon">
+                                    <i class="fa-solid fa-users"></i>
+                                    <input type="number" id="guests" name="guests" min="1" max="10" required placeholder="2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date & Time</label>
+                            <div class="input-icon">
+                                <i class="fa-regular fa-calendar"></i>
+                                <input type="datetime-local" id="date" name="date" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Anniversary, allergies..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Confirm Reservation</button>
+                    </form>
+                    <!-- Success Message Placeholder -->
+                    <div id="form-success-msg" class="success-message hidden">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Thank you! Your reservation request has been received. We will call you to confirm shortly.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2><i class="fa-solid fa-moon"></i> Luna Bites</h2>
+                <p>Sweetness After Dark</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h3>Join the Night</h3>
+                <p>Subscribe for exclusive evening offers.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed!');">
+                    <input type="email" placeholder="Email address" required>
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Luna Bites. A fictional school project.</p>
+                <p>Designed with <i class="fa-solid fa-heart" style="color: var(--accent-gold);"></i> for midnight cravings.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
